@@ -1,0 +1,24 @@
+.titlelist{
+	background-color: #e8e8e8;;
+	border:1px solid rgba(228, 228, 228, 1);
+	height: 40px;
+	font-size: 15px;
+	line-height: 40px;
+	padding-left: 10px;
+	display: block;
+	position: relative;
+	margin-bottom: 10px;
+	border-radius:4px;
+	.list{
+		display: inline;
+		&:after{
+			content:'>';
+			margin: 0 3px;
+		}
+	}
+	.list:last-child{
+		&:after{
+			content:'';
+		}
+	}
+}

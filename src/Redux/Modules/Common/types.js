@@ -1,0 +1,17 @@
+//发送请求
+export const LOAD_COMMON_REQUEST = 'LOAD_COMMON_REQUEST';
+export const LOAD_COMMON_SUCCESS = 'LOAD_COMMON_SUCCESS';
+export const LOAD_COMMON_FAILURE = 'LOAD_COMMON_FAILURE';
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+
+.form-item{
+
+	display:flex;
+	flex-direcation:row;
+	position:relative;
+	width:100%;
+	margin-bottom:15px;
+
+
+	.form-label{
+		height:35px;
+		line-height:35px;
+		width:100px;
+		text-align:center;
+	}
+
+	.require-label{
+		width:20px;
+		color:red;
+	}
+
+	.form-main{
+		position:relative;
+		flex:1;
+		flex-direcation:column;
+	}
+
+	.form-input-main{
+		flex-direcation:row;
+		width:100%;
+	}
+	.form-input{
+		position:relative;
+		flex:3;
+
+		select,
+		input[type=text],
+		input[type=email],
+		input[type=password],{
+			box-sizing:border-box;
+			width:100%;
+			display:block;
+			height:40px;
+			padding-left:10px;
+			padding-right:10px;
+			border:1px solid #ddd;
+			border-radius:4px;
+		}
+
+		input[disabled]{
+			cursor:not-allowed;
+			background-color:#eaeaea;
+		}
+
+		textarea{
+			box-sizing:border-box;
+			width:100%;
+			display:block;
+			height:40px;
+			padding-left:10px;
+			padding-right:10px;
+			border:1px solid #ddd;
+			border-radius:4px;
+			padding-top:10px;
+			height:100px;
+			resize: vertical;
+		}
+
+
+		select,
+		input[type=text],
+		input[type=email],
+		textarea,
+		input[type=password],{
+			font-size:14px;
+			color:#666;
+			&:focus{
+				outline:none;
+				border-color:#499df1;
+				box-shadow: 0 0 3px #499df1;
+			}
+		}
+
+		.error-input{
+			font-size:16px;
+				border:1px solid red !important;
+				box-shadow: 0 0 3px red;
+		}
+
+
+
+		
+
+	}
+
+
+}

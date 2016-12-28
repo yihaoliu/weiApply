@@ -1,0 +1,72 @@
+.circle-color{
+	width: 8px;
+	height: 8px;
+	border-radius: 10px;
+	// border:2px solid red;
+	margin-right: 10px;
+	display: inline-block;
+}
+span.over-circle{
+	border:2px solid #77cd50;
+}
+span.section-circle{
+	border: 2px solid #ff9a48;
+}
+span.no-pay{
+	border:2px solid red;
+}
+.ContractName{
+	margin: 10px 0;
+}
+.circle-color-top{
+	margin-right:0px !important;
+	margin-left:20px;
+}
+.border-top{
+	border-top:4px solid #499df1;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	margin-top: 30px;
+	&:after{
+		content: '';
+		border-top: 1px solid #499df1;
+		width: 100%;
+		display: inline-block;
+		position: absolute;
+		top: 8px;
+	}
+}
+.border-bottom{
+	border-top:4px solid #499df1;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	margin-top: 50px;
+	&:before{
+		content: '';
+		border-top: 1px solid #499df1;
+		width: 100%;
+		display: inline-block;
+		position: absolute;
+		top: -12px;
+	}
+}
+.createButton{
+	font-size: 16px;
+	text-decoration: none;
+	width: 150px;
+	height: 44px;
+	border-radius: 20px;
+	color: #499df1;
+	background-color: #fff;
+	box-shadow:0 4px 12px #a4cef8;
+	display: inline-block;
+	line-height: 44px;
+	margin-top: 2px;
+	&:hover{
+		background-color: #499df1;
+		color: #fff;
+	}
+}
+

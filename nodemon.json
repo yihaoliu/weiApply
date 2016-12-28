@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "ignore": ["*.test.js", "src/*","static/*","*.template.html","node_modules/*","docs/*"],
+  "ext": "js html" ,
+  "env": { "NODE_ENV": "development" }
+}

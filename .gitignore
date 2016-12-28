@@ -1,0 +1,39 @@
+# node.js / npm
+lib-cov
+*.seed
+*.log
+*.dat
+*.out
+*.pid
+*.gz
+build
+
+pids
+logs
+results
+
+node_modules
+
+.tags
+
+npm-debug.log
+npm-debug.log.*
+
+static/components
+
+# misc / editors
+*~
+*#
+
+.DS_STORE
+*.DS_STORE
+
+.DS_Store
+*.DS_Store
+
+# Test
+
+webpack/dist
+webpack/dist/*
+
+material-demo

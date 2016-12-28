@@ -1,0 +1,66 @@
+.line{
+	.date-component{
+		width: 100px;
+		.date-operation{
+			input{
+				width: 100px;
+			}
+		}
+	}
+}
+
+.date-component{
+		display:inline-block;
+		border:1px solid #dfdfdf;
+		height:35px;
+		width:100%;
+		//width: 150px;
+		min-width:150px;
+		border-radius:4px;
+		position:relative;
+		cursor: pointer;
+
+	.date-input,
+	.date-operation{
+		display:block;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		position:absolute;
+		div{
+			//width:100% !important;
+			input{
+				cursor: pointer !important;
+			}
+		}
+	}
+	.date-input{
+	height:35px;
+	line-height:35px;
+	padding-left:10px;
+	padding-right:10px;
+	position: relative;
+
+
+	}
+
+	.date-operation {
+		position:absolute;
+		//z-index:1;
+	}
+/*
+	.icon{
+		width:21px;
+		height:22px;
+		background:url('images/date.png') no-repeat center center;
+		background-size: 100% 100%;
+		position: absolute;
+		right:7px;
+		top:50%;
+		margin-top: -11px;
+	}
+	*/
+
+
+}

@@ -1,0 +1,121 @@
+.edit-form{
+	padding:  10px 40px;
+	.person-info{
+		padding-left: 15px;
+		margin: 20px 0;
+
+	}
+	.person-name{
+		font-size: 16px;
+		font-weight: 500;
+	}
+	.person-status,.person-status-not{
+		font-size: 12px;
+		padding: 2px 8px;
+		background: #ff6868;
+		border-radius: 4px;
+		margin: 0 15px;
+		color: #fff;
+		position: relative;
+		padding-right: 20px;
+		&:after{
+			content: '';
+			width: 12px;
+			height: 12px;
+			background: url('./images/all.png') no-repeat;
+			display: inline-block;
+			background-size:cover;
+			margin-left: 4px;
+			position: absolute;
+			top: 4px;
+		}
+	}
+	.person-status:after{
+			background: url('./images/1.png') no-repeat;
+			background-size:cover;
+
+	}
+	.person-status-not{
+		background: #499df1;
+	}
+	.person-id{
+		font-size: 14px;
+	}
+	.split-lines{
+		height: 20px;
+		width: 80%;
+		padding-left: 10%;
+		margin-bottom: 10px;
+		background: url('./images/line.png') no-repeat;
+	}
+}
+.validate-member{
+	span{
+		font-size: 14px;
+	}
+	.make-sure{
+		display: block;
+		color: #ff6868;
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.demo-info{
+		margin-bottom: 30px;
+		.demo-title{
+			display: block;
+			margin: 10px 0;
+		}
+	}
+	.table-div{
+		max-height: 200px;
+		overflow-y: auto;
+	}
+}
+.import-logo{
+	color: #7ab55c;
+	display: inline-block;
+	font-size: 80px;
+	margin: 10px auto;
+	text-align: center;
+	position: relative;
+	.chooce-file{
+		height: 80px;
+	}
+}
+.import-font{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: #499df1;
+	position: relative;
+	// cursor: pointer;
+	.chooce{
+		width: 100px;
+		cursor: pointer;
+	}
+	input[type='file']{
+		cursor: pointer;
+	}
+}
+.load-demo{
+	display: inline-block;
+	// width: 100%;
+	text-align: center;
+	margin:20px 0;
+	cursor: pointer;
+}
+.file-name{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin:10px 0;
+}
+.chooce-file{
+	// visibility: hidden;
+	position: absolute;
+	width: 100px;
+	left: 50%;
+	transform:translateX(-50px);
+	opacity: 0;
+	cursor: pointer;
+}

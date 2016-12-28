@@ -1,0 +1,16 @@
+
+//加载基础数据
+export const LOAD_PLAN_REQUEST = 'LOAD_PLAN_REQUEST';
+export const LOAD_PLAN_SUCCESS = 'LOAD_PLAN_SUCCESS';
+export const LOAD_PLAN_FAILURE = 'LOAD_PLAN_FAILURE';
+
+//创建
+export const CREATE_PLAN_REQUEST = 'CREATE_PLAN_REQUEST';
+export const CREATE_PLAN_SUCCESS = 'CREATE_PLAN_SUCCESS';
+export const CREATE_PLAN_FAILURE = 'CREATE_PLAN_FAILURE';
+
+//设置当前时间
+export const SET_NOW_TRIP = 'SET_NOW_TRIP';
+export const SET_NOW_DATE = 'SET_NOW_DATE';
+
+

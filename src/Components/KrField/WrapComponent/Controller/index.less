@@ -1,0 +1,151 @@
+.ui-form-controller{
+
+	color:#666;
+	padding-bottom:11px;
+	dispaly:block;
+	line-height:14px;
+	padding-left:10px;
+
+
+	&:hover{
+		.ui-form-notify{
+			display:block;
+		}
+	}
+
+
+	&.inline{
+		display:inline-block;
+		min-width: 100px;
+		padding-bottom: 0;
+		text-align: left;
+		max-width: 70%;
+		padding-left:0px;
+		.ui-label-text{
+			position: absolute;
+			width: 70%;
+			display: inline;
+			margin-top: 6px;
+			top: 0;
+			span{
+				text-overflow:ellipsis;
+				overflow: hidden;
+				white-space: nowrap;
+				display: inline-block;
+				max-width: 100%;
+			}
+		}
+	}
+	&.search-content{
+		display:inline-block;
+		min-width: 100px;
+		padding-bottom: 0;
+		width: 70%;
+		vertical-align: middle;
+
+	}
+	&.require-blue{
+		padding-bottom: 0px;
+		line-height: 40px;
+	}
+
+	&.simple{
+		padding-bottom:0;
+		padding-left:0;
+	}
+	&.alignRight{
+		padding-bottom:0;
+		display: inline;
+		max-width: 170px;
+		padding-left:0;
+		.ui-label-text{
+			position: absolute;
+			margin-top: 6px;
+			span{
+				max-width: 170px;
+				text-overflow:ellipsis;
+				overflow: hidden;
+				white-space: nowrap;
+				display: inline-block;
+			}
+		}
+	}
+
+
+	.error-wrap {
+		color:red;
+		padding:10px 0;
+		padding-bottom: 0;
+		// padding-top: 20px;
+	}
+
+	select,
+		input[type=text],
+		input[type=email],
+		input[type=password],{
+			box-sizing:border-box;
+			width:100%;
+			display:block;
+			height:38px;
+			padding-left:10px;
+			padding-right:10px;
+			border:1px solid #ddd;
+			border-radius:4px;
+		}
+
+		input[disabled]{
+			cursor:not-allowed;
+			background-color:#eaeaea;
+		}
+
+		textarea{
+			box-sizing:border-box;
+			width:100%;
+			display:block;
+			height:40px;
+			padding-left:10px;
+			padding-right:10px;
+			border:1px solid #ddd;
+			border-radius:4px;
+			padding-top:10px;
+			height:100px;
+			resize: vertical;
+			font-size:14px;
+			color:#666;
+		}
+
+
+		select,
+		input[type=text],
+		input[type=email],
+		textarea,
+		input[type=password],{
+			font-size:14px;
+			color:#666;
+			&:focus{
+				outline:none;
+				border-color:#499df1;
+				box-shadow: 0 0 3px #499df1;
+			}
+		}
+		.error-input{
+			font-size:16px;
+				border:1px solid red !important;
+				box-shadow: 0 0 3px red !important;
+		}
+
+		input[type=text]{
+			&.render-text{
+				cursor:not-allowed;
+				border:none;
+				background-color:transparent;
+			}
+		}
+
+
+
+	p{
+
+	}
+
+}

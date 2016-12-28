@@ -1,0 +1,31 @@
+
+//Notify
+module.exports = {
+	items:[
+		{
+			content:'请注意，那里有人',
+			createAt:'',
+			author:'张屈',
+		},
+		{
+			content:'请注意，那里有人',
+			createAt:'',
+			author:'张屈',
+		},
+		{
+			content:'请注意，那里有人',
+			createAt:'',
+			author:'张屈',
+		},
+		{
+			content:'请注意，那里有人',
+			createAt:'',
+			author:'张屈',
+		},
+		{
+			content:'注意啦',
+			createAt:'',
+			author:'张屈',
+		}
+	]
+}

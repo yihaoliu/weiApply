@@ -1,0 +1,93 @@
+//没有数据
+.ui-nothing{
+	width:180px;
+	height:240px;
+	margin-left:auto;
+	margin-right:auto;
+	.icon{
+		width:139px;
+		height:196px;
+		background:url('images/nothings.png') no-repeat center center;
+		background-size:100% 100%;
+	}
+	.tip{
+		font-size:18px;
+		color:#666666;
+	}
+}
+
+//默认样式
+.ui-table{
+	width:100%;
+	border-collapse:collapse;
+	border-radius:4px 4px 0 0;
+	//table-layout:fixed;
+	position:relative;
+	margin-top:20px;
+
+	th{
+		height:45px;
+		text-align:center;
+		font-weight:100;
+		font-size: 16px;
+	    color:#333;
+	    font-family: '方正兰亭中黑';
+	}
+
+	thead{
+		border:2px solid #eeeeee;
+		border-left: none;
+		border-right: none;
+	}
+
+	td{
+		height:42px;
+		text-align:center;
+		font-size:14px;
+		color:#666;
+		font-weight:100;
+		padding:0;
+		max-width:100px;
+		text-overflow: ellipsis;
+  		overflow: hidden;
+  		white-space: nowrap;
+
+		button{
+			span{
+				color:#fff !important;
+			}
+		}
+	}
+
+	tr{
+		border:1px solid #f2f2f2;
+		border-left:none;
+		border-right:none;
+		&:last-of-type{
+			border:none;
+		}
+	}
+	tbody{
+
+		tr:nth-child(2n+1){
+			// border:1px solid #ddd;
+			border-left:none;
+			border-right:none;
+			background-color:#f2f2f2;
+			&:last-of-type{
+				border:none;
+			}
+		}
+	}
+
+
+	&.table-bordered{
+		td{
+			border:1px solid #eaeaea;
+		}
+	}
+
+	&.table-striped{
+
+	}
+}

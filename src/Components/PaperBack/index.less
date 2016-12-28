@@ -1,0 +1,72 @@
+.view-background{
+	// border:1px solid red;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	box-shadow:0 1px 16px #666;
+	top: 95px;
+	&:before{
+		content: '';
+		width: 100%;
+		background: url('./images/viewHead.png') no-repeat 100%;
+		height: 17px;
+		display: block;
+		background-size: 100% 100%;
+		position: absolute;
+		top: -12px;
+	}
+	&:after{
+		content: '';
+		width: 100%;
+		background: url('./images/viewFooter.png') no-repeat 100%;
+		height: 10px;
+		display: block;
+		background-size: 100% 100%;
+		position: absolute;
+		bottom: -8px;
+	}
+}
+.circle-head{
+	width: 70px;
+	height: 70px;
+	background: url('./images/head.png') no-repeat 100%;
+	background-size: 100% 100%;
+	margin:0 auto;
+	margin-bottom: 115px;
+	position: relative;
+	&:after{
+		content:'';
+		border:1px dashed #499df1;
+		position: absolute;
+		left: 50%;
+		bottom: -20px;
+		height: 33px;
+	}
+}
+.content-title{
+	font-size: 24px;
+	display: inline-block;
+	margin: 50px auto;
+	margin-left: 50%;
+	transform:translateX(-50%);
+	position: relative;
+	color: #333;
+	&:before{
+		content:'';
+		width: 150px;
+		height: 34px;
+		position: absolute;
+		top: 17px;
+		left: -175px;
+		border-top: 1px solid #eee;
+	}
+	&:after{
+		content:'';
+		width: 150px;
+		height: 34px;
+		position: absolute;
+		top: 17px;
+		right: -175px;
+		border-top: 1px solid #eee;
+	}
+}

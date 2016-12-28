@@ -1,0 +1,20 @@
+{
+  "name": "react-to-36kr",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "张屈 <joneyphair@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

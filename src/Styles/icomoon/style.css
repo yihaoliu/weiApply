@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?pvqfv5');
+  src:  url('fonts/icomoon.eot?pvqfv5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pvqfv5') format('truetype'),
+    url('fonts/icomoon.woff?pvqfv5') format('woff'),
+    url('fonts/icomoon.svg?pvqfv5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-excel:before {
+  content: "\e900";
+}
+.icon-template:before {
+  content: "\e915";
+}
+.icon-basis:before {
+  content: "\e901";
+}
+.icon-money:before {
+  content: "\e902";
+}
+.icon-com:before {
+  content: "\e903";
+}
+.icon-community:before {
+  content: "\e904";
+}
+.icon-dandian_nor:before {
+  content: "\e905";
+}
+.icon-orderForm:before {
+  content: "\e906";
+}
+.icon-administrator:before {
+  content: "\e907";
+}
+.icon-schema:before {
+  content: "\e908";
+}
+.icon-control:before {
+  content: "\e909";
+}
+.icon-look:before {
+  content: "\e90c";
+}
+.icon-user:before {
+  content: "\e90d";
+}
+.icon-return:before {
+  content: "\e90e";
+}
+.icon-commodityManage:before {
+  content: "\e90f";
+}
+.icon-vip:before {
+  content: "\e910";
+}
+.icon-file:before {
+  content: "\e911";
+}
+.icon-wendang:before {
+  content: "\e912";
+}
+.icon-system:before {
+  content: "\e913";
+}
+.icon-account:before {
+  content: "\e914";
+}
+.icon-icon_return_01:before {
+  content: "\e90a";
+}
+.icon-searching:before {
+  content: "\e90b";
+}
+
